@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Text Enhancer (Dev)",
+    "version": "1.0",
+    "description": "Enhances text inputs & editors by sending content to a server and replacing it with the response.",
+    "permissions": [],
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ],
+    "icons": {
+      "16": "icon.png"
+    },
+    "web_accessible_resources": [
+      {
+        "resources": ["icon.png","re-icon.png","settings-icon.png"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+  

@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  cin_validator:
+    image: faroukdaboussi0/GhostTextAI:latest
+    container_name: GhostTextAI
+    volumes:
+     - ./api_keys.env:/app/api_keys.env  
+    ports:
+      - "8082:8082"
+
