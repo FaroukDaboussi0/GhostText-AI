@@ -18,7 +18,7 @@ This tool is ideal for:
 - ⚡ Remote Professionals & Freelancers – Chat faster and smarter in multilingual environments.
 
 
-# 🚀 Why Use GhostText?
+## 🚀 Why Use GhostText?
 - ✅ Real-Time Editing – Rewrite, translate, or polish your writing inside any website.
 
 - 🔧 Fully Configurable – Choose your tone, language, and rewrite style.
