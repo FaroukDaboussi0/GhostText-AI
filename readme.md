@@ -18,7 +18,7 @@ This tool is ideal for:
 - ⚡ Remote Professionals & Freelancers – Chat faster and smarter in multilingual environments.
 
 
-# 🚀 Why Use GhostText Enhancer?
+# 🚀 Why Use GhostText?
 - ✅ Real-Time Editing – Rewrite, translate, or polish your writing inside any website.
 
 - 🔧 Fully Configurable – Choose your tone, language, and rewrite style.
@@ -48,13 +48,27 @@ winget install --id Git.Git -e
 Clone the repository:
 ```
 ```bash
-git clone https://github.com/your-username/ghosttext-enhancer.git
+git clone https://github.com/FaroukDaboussi0/GhostText-AI
 ```
 Navigate into the project folder:
 
 ```bash
-cd ghosttext-enhancer
+cd GhostText-AI
 ```
+- Get your Google API keys
+Visit the official Google Cloud Console to generate your API keys:
+👉 https://ai.google.dev/gemini-api/docs/api-key?hl=fr
+
+- Create  API key . it should look like this:
+AIzaSyA3f-azeravaz-aze...
+
+-  Create the api_keys.env file
+You can create it using the command line in your project root:
+
+```bash
+echo GOOGLE_API_KEY_1=your_api_key > api_keys.env
+```
+
 Start the backend service using Docker:
 
 ```bash
