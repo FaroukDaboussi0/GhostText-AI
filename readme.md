@@ -45,8 +45,8 @@ Make sure:
 
 ```bash
 winget install --id Git.Git -e
-Clone the repository:
 ```
+Clone the repository:
 ```bash
 git clone https://github.com/FaroukDaboussi0/GhostText-AI
 ```
